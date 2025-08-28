@@ -4,3 +4,5 @@ apps/desktop/resources/locales/
 **/__snapshots__/
 **/fixtures/
 src/database/migrations/
+# Don't index SpecStory auto-save files, but allow explicit context inclusion via @ references
+.specstory/**
